@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2{
+    color:#aa8976;
+}
+p{
+    margin: 0, 10px;
+}
+
+/* navbar */
+#navbar{
+   /* background-color: #bedbbb; */
+   color: #707070;
+   overflow: hidden;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar a{
+    color:#707070;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover{
+    color: #59886b;
+    background-color:#eff8ff;
+    
+}
+#navbar .current {
+    background-color: #eff8ff;
+    color: #59886b;
+}
+#navbar .container{
+    margin: 0, 15px;
+}
+.logo{
+    margin-left: 50px;
+}
+.fas{
+    padding-right:20px;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+ }
+.text-primary {
+    color: #70af85;
+ }
+
+/* showcase */
+#showcase{
+   background: url('../images/bg-trail.jpg') no-repeat center center/cover;
+   height: 830px;
+}
+#showcase #showcase-content{
+    padding-top: 200px;
+}
+
+#showcase #showcase-content h2 {
+    font-size: 45px;
+    line-height: 1.3em;
+}
+#showcase-content .intro {
+    text-align: center;
+    font-size: 18px;
+    color: #433d3c;
+    /* margin: auto; */
+}
+#showcase-content .btn {
+    margin-left:530px;
+    margin-top: 40px;
+}
+.btn{
+    background-color: #d4e2d4;
+    color: #433d3c;
+    border-radius:7px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 2px 0;
+    text-align: center;
+    display: inline-block;  
+}
+.btn:hover {
+    background-color: #eff8ff;
+}
+.footer{
+    background-color: #d4e2d4;
+    color:  #433d3c;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#hiking-trail-content .top-img img{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 70%;
+}
+
+#select{
+    margin-top: 20px;
+}
+
+/* mountains style */
+#mountains{
+    max-width: 1200px;
+    margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+#mountains .mountain-title{
+    /* border: 1px solid black; */
+}
+.mountain-title{
+    text-align: center;
+}
+.mountain-cover-img{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+
+}
+/* contact page */
+#contact .container{
+    text-align: left;
+}
+#contact .forms{
+    margin-bottom: 20px;
+}
+#contact label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact textarea{
+    height: 100px;
+}
+#contact input, textarea{
+    width: 100%;
+    padding:10px;
+    border:1px solid #ddd;
+}
+/* social-menu */
+.social-menu{
+    margin-left: 850px ;
+    margin-bottom:70px;
+    margin-top: 20px;;
+}
+.social-menu ul{
+    display: flex;
+}
+.social-menu ul li{
+    list-style: none;
+    margin: 0, 15px;
+    padding-left: 20px;
+}
+    
+.social-menu ul li .fa{
+    font-size: 20px;
+    /* line-height: 0px; */
+    transition: .6s;
+    color:#433d3c;
+    
+}
+.social-menu ul li .fa:hover{
+    color:#eeeeee;
+}
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 10px;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0.5);
+}
+.social-menu ul li a:hover{
+    transform: translate(0,-10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+    background-color:#3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:#e4405f;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#0077B5;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color:#131418;
+}
+
+/* apuseni html style */
+.container{
+width: 1200px;
+}
+#box-content{
+background: url('../images/apuseni1.jpg') no-repeat center center/cover;
+height: 320px;
+width: 1200px; 
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+#box-content>h2{
+    color: white; 
+}
+.traseu-number{
+    padding-left: 355px;
+    margin-top: 20px;
+    font-size: large;
+
+}
+.treks{
+    color:#70af85;
+    font-size: 20px;
+}
+.details{
+    width: 1000px;
+    padding-left: 100px;
+    font-size: 16px;
+    color: #737373;
+}
+#fonts{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.details-fonts .fas{
+    font-size: 30px;
+    color:  #70af85; 
+}
+h4{
+    padding-top:7px;
+    color: #433d3c;
+}
+h4>span{
+    color:grey;
+    font-size: 15px;
+}
+.directions{
+    padding-left: 355px;
+    padding-top: 10px;
+    color: #433d3c;
+}
+hr{
+    width: 1200px;
+}
+.direction-description{
+    width: 1200px;
+    padding-top: 20px;
+    color: #737373;
+    padding-bottom: 20px;
+}
+.scarisoara> #mountains>.mountain-title>.mountain-cover-img{
+    height: 500px;
+}
+
+
+
+
+
